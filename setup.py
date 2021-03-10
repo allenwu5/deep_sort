@@ -23,6 +23,6 @@ setuptools.setup(
         "License :: OSI Approved :: GPL-3.0 License",
         "Operating System :: OS Independent",
     ],
-    packages=['deep_sort'],
+    packages=[''],
     python_requires=">=3.6",
 )
