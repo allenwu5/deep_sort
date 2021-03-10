@@ -1,13 +1,13 @@
 """
 Based on https://packaging.python.org/tutorials/packaging-projects/
 """
-import setuptools
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
-    name="deep-sort", 
+setup(
+    name="deep-sort",
     version="0.0.1",
     author="",
     author_email="",
@@ -23,6 +23,6 @@ setuptools.setup(
         "License :: OSI Approved :: GPL-3.0 License",
         "Operating System :: OS Independent",
     ],
-    packages=['deep_sort'],
+    packages=find_packages(),
     python_requires=">=3.6",
 )
