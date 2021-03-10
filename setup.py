@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="deep-sort", # Replace with your own username
+    name="deep-sort", 
     version="0.0.1",
     author="",
     author_email="",
@@ -23,7 +23,6 @@ setuptools.setup(
         "License :: OSI Approved :: GPL-3.0 License",
         "Operating System :: OS Independent",
     ],
-    package_dir = { 'deep_sort.deep_sort' : 'deep_sort/deep_sort', 'deep_sort.application_util' : 'deep_sort/application_util', 'deep_sort.tools' : 'deep_sort/tools' }, 
-    packages=['deep_sort'],
+    packages=[''],
     python_requires=">=3.6",
 )
